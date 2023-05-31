@@ -1,7 +1,7 @@
-<p align="justify">
-
 # SCARA Firmware
+
 ### Commands
+
 | Name | Command | Parameters | Returns | Description | Example |
 |---- |
 |Stop Robot | STOP | - | STOPPED | Stop the robot immediately. This command is processed differently to all other commands in that it is processed on receive rather than added to a buffer. | STOP -> STOP |
@@ -15,5 +15,3 @@
 | Echo commands | ECHO | ,b (uint as a bool)| ECHO b | Turn on/off (b) confirmation of command receive messages. | ECHO,1 -> ECHO 1 |
 | Set speeds | SPEEDSET | ,v,a (uint, uint) | SPEEDSET: v a | Set the velocity, v, and acceleration, a, values of the robot. | SPEEDSET,100,80 -> SPEEDSET 100 80 |
 | Negative acknowledge | - | - | NACK: cmd | Command was received, cmd, but is invalid. | I_Love_Massey -> NACK I_Love_Massey |
-
-</p>
