@@ -1,6 +1,9 @@
 # SCARA Firmware
+Firmware updated by Jamie Churchouse
 
-![SCARA](scara.jpg | width=400)
+<p align="center">
+<img src="scara.jpg" width="800" height="450" align="center"/>
+</p>
 
 ### Commands
 
@@ -18,4 +21,6 @@
 | Set speeds | SPEEDSET | ,v,a (uint, uint) | SPEEDSET: v a | Set the velocity, v, and acceleration, a, values of the robot. | SPEEDSET,100,80 -> SPEEDSET 100 80 |
 | Negative acknowledge | - | - | NACK: cmd | Command was received, cmd, but is invalid. | I_Love_Massey -> NACK I_Love_Massey |
 
-![](logo.png)
+<p align="center">
+<img src="logo.png" width="192" height="81" align="center"/>
+</p>
