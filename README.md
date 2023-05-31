@@ -1,3 +1,5 @@
+<p align="justify">
+
 # SCARA Firmware
 ### Commands
 | Name | Command | Parameters | Returns | Description | Example |
@@ -14,3 +16,4 @@
 | Set speeds | SPEEDSET | ,v,a (uint, uint) | SPEEDSET: v a | Set the velocity, v, and acceleration, a, values of the robot. | SPEEDSET,100,80 -> SPEEDSET 100 80 |
 | Negative acknowledge | - | - | NACK: cmd | Command was received, cmd, but is invalid. | I_Love_Massey -> NACK I_Love_Massey |
 
+</p>
