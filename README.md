@@ -1,5 +1,7 @@
 # SCARA Firmware
 
+![SCARA](scara.jpg | width=400)
+
 ### Commands
 
 | Name | Command | Parameters | Returns | Description | Example |
@@ -15,3 +17,5 @@
 | Echo commands | ECHO | ,b (uint as a bool)| ECHO b | Turn on/off (b) confirmation of command receive messages. | ECHO,1 -> ECHO 1 |
 | Set speeds | SPEEDSET | ,v,a (uint, uint) | SPEEDSET: v a | Set the velocity, v, and acceleration, a, values of the robot. | SPEEDSET,100,80 -> SPEEDSET 100 80 |
 | Negative acknowledge | - | - | NACK: cmd | Command was received, cmd, but is invalid. | I_Love_Massey -> NACK I_Love_Massey |
+
+![](logo.png)
