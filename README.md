@@ -3,7 +3,7 @@
 ### Commands
 
 | Name | Command | Parameters | Returns | Description | Example |
-|---- |
+|-|-|-|-|-|-|
 |Stop Robot | STOP | - | STOPPED | Stop the robot immediately. This command is processed differently to all other commands in that it is processed on receive rather than added to a buffer. | STOP -> STOP |
 | Ping | PING | - | PONG | Ping the device to test communication. | PING -> PONG|
 | Home | HOME | - | HOME | Home the robot to 0,0,0 | HOME -> HOME|
